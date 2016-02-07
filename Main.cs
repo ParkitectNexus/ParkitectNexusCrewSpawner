@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Children
+namespace ParkitectNexusCrew
 {
     public class Main : IMod
     {
@@ -10,7 +10,7 @@ namespace Children
         {
             _go = new GameObject("Children maker");
 
-            _go.AddComponent<ChildrenMaker>();
+            _go.AddComponent<ParkitectNexusSpawner>();
         }
         
         public void onDisabled()
