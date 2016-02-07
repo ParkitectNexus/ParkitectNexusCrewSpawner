@@ -1,0 +1,6 @@
+{
+    "BaseDir": "./",
+    "IsDevelopment": true,
+    "Name": "Children maker",
+    "Project": "Children.csproj"
+}
