@@ -48,7 +48,6 @@ namespace ParkitectNexusCrew
             Guest guest = GameController.Instance.park.spawnUnInitializedPerson(prefab) as Guest;
             if (guest != null)
             {
-                guest.triggerExperienceNotifications = true;
                 guest.uniqueID = id;
                 guest.Initialize();
             }
